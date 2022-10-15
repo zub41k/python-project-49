@@ -33,5 +33,4 @@ def checking_num():
 
         if count_answer == 3:
             print(f'Congratulations, {name}!')
-
 checking_num()
