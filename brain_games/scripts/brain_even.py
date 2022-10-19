@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from brain_games.game import checking_num
-
+from brain_games.logic import greeting
+from brain_games.games.even import play_round
 
 def main():
-    checking_num()
+    greeting(play_round())
 
 
 if __name__ == '__main__':
