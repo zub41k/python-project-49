@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games.even import *
+
 
 def greeting(game):
 
@@ -9,14 +9,13 @@ def greeting(game):
 
     print('Hello, ' + name + '!')
 
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
     print(game.RULES)
 
     count_answer = 0
     while count_answer < 3:
-        print(question)
-        answer = prompt.string('Your answer :')
+        question: str
+        question, right_answer = game.play_round()
+        answer = prompt.string('Your answer: ')
 
         if answer == right_answer:
             print('Correct!')
@@ -30,5 +29,3 @@ def greeting(game):
 
         if count_answer == 3:
             print(f'Congratulations, {name}!')
-
-greeting(even)
