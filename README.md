@@ -27,3 +27,6 @@ https://asciinema.org/connect/cf987227-5292-4e78-a36f-ceea6e17652f
 
 BRAIN-GCD
 https://asciinema.org/a/7FUw7phClsg2leA4OWWSCQ5mQ
+
+BRAIN-PROGRESSION
+https://asciinema.org/a/5bynFnGJ8cwS8WeBMDU0snVbd
