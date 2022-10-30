@@ -1,12 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "five mini games"
+classifiers = [
+    "Topic :: Study project :: Math games"
+]
 authors = ["Юрий <zub-69-z@mail.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+repository = https://github.com/zub41k/python-project-49.git
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
