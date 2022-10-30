@@ -30,3 +30,6 @@ https://asciinema.org/a/7FUw7phClsg2leA4OWWSCQ5mQ
 
 BRAIN-PROGRESSION
 https://asciinema.org/a/5bynFnGJ8cwS8WeBMDU0snVbd
+
+BRAIN-PRIME
+https://asciinema.org/a/m6jvksI2ZNtJfK2g5BhlZFMHR
