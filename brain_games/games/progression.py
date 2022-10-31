@@ -21,6 +21,6 @@ def play_round():
     right_answer = progression[skip]
 
     progression[skip] = ".."
-    question = print(' '.join(progression))
+    question = print('Question: ' + ' '.join(progression))
 
     return question, right_answer
