@@ -9,7 +9,7 @@ def play_round():
     first_number = random.randint(1, 10)
     second_number = random.randint(1, 10)
     operator = random.choice(OPERATORS)
-    question = print(f'Question: {first_number} {operator} {second_number}')
+    question = f'Question: {first_number} {operator} {second_number}'
 
     if operator == '+':
         right_answer = first_number + second_number

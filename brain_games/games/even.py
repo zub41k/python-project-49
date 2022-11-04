@@ -11,7 +11,7 @@ def is_even(number):
 
 def play_round():
     number = random.randint(1, 100)
-    question: str = f'Question: {number}'
+    question = f'Question: {number}'
 
     if is_even(number):
         right_answer: str = 'yes'

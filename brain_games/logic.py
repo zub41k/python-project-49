@@ -1,5 +1,5 @@
 import prompt
-
+from brain_games.games import even
 
 def game_engine(game):
 
@@ -14,6 +14,7 @@ def game_engine(game):
     count_answer = 0
     while count_answer < 3:
         question, right_answer = game.play_round()
+        print(question)
         answer = prompt.string('Your answer: ')
 
         if answer == right_answer:
@@ -28,3 +29,4 @@ def game_engine(game):
 
         if count_answer == 3:
             print(f'Congratulations, {name}!')
+game_engine(even)
