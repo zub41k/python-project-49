@@ -19,17 +19,12 @@ make publish
 make package-install
     python3 -m pip install --user --force-reinstall  dist/*.whl
 
-BRAIN-EVEN
-https://asciinema.org/a/U7er5eLUONKmMxTinFJmuNFTd
+BRAIN-EVEN <a href="https://asciinema.org/a/534506" target="_blank"><img src="https://asciinema.org/a/534506.svg" /></a>
 
-BRAIN-CALC
-https://asciinema.org/connect/cf987227-5292-4e78-a36f-ceea6e17652f
+BRAIN-CALC <a href="https://asciinema.org/a/531686" target="_blank"><img src="https://asciinema.org/a/531686.svg" /></a>
 
-BRAIN-GCD
-https://asciinema.org/a/7FUw7phClsg2leA4OWWSCQ5mQ
+BRAIN-GCD <a href="https://asciinema.org/a/532247" target="_blank"><img src="https://asciinema.org/a/532247.svg" /></a>
 
-BRAIN-PROGRESSION
-https://asciinema.org/a/5bynFnGJ8cwS8WeBMDU0snVbd
+BRAIN-PROGRESSION <a href="https://asciinema.org/a/533157" target="_blank"><img src="https://asciinema.org/a/533157.svg" /></a>
 
-BRAIN-PRIME
-https://asciinema.org/a/m6jvksI2ZNtJfK2g5BhlZFMHR
+BRAIN-PRIME <a href="https://asciinema.org/a/534510" target="_blank"><img src="https://asciinema.org/a/534510.svg" /></a>
