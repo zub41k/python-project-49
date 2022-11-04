@@ -1,7 +1,7 @@
 import prompt
 
 
-def greeting(game):
+def game_engine(game):
 
     print("Welcome to the Brain Games!")
 
@@ -13,7 +13,6 @@ def greeting(game):
 
     count_answer = 0
     while count_answer < 3:
-        question: str
         question, right_answer = game.play_round()
         answer = prompt.string('Your answer: ')
 
