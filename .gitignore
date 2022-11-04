@@ -1,1 +1,9 @@
 .venv/
+dist/
+__pycache__/
+brain-calc
+brain-even
+brain-games
+brain-gcd
+brain-prime
+brain-progression
