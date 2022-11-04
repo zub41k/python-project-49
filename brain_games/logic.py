@@ -1,5 +1,5 @@
 import prompt
-from brain_games.games import even
+
 
 def game_engine(game):
 
@@ -29,4 +29,3 @@ def game_engine(game):
 
         if count_answer == 3:
             print(f'Congratulations, {name}!')
-game_engine(even)
