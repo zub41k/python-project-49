@@ -4,12 +4,10 @@ RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    return False
+    return number % 2
 
 
-def play_round():
+def generate_round():
     number = random.randint(1, 100)
     question = f'Question: {number}'
 

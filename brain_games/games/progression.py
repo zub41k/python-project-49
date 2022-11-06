@@ -3,7 +3,7 @@ from random import randint
 RULES = 'What number is missing in the progression?'
 
 
-def make_list():
+def generate_list():
 
     interval = randint(1, 10)
     start = randint(1, 100)
@@ -14,8 +14,8 @@ def make_list():
     return list
 
 
-def play_round():
-    progression = make_list()
+def generate_round():
+    progression = generate_list()
 
     skip = randint(0, 9)
     right_answer = progression[skip]

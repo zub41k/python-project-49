@@ -4,7 +4,7 @@ RULES = 'What is the result of the expression?'
 OPERATORS = ['+', '-', '*']
 
 
-def play_round():
+def generate_round():
 
     first_number = random.randint(1, 10)
     second_number = random.randint(1, 10)
