@@ -19,7 +19,7 @@ def is_prime(number):
 def generate_round():
 
     number = random.randint(1, 1000)
-    question = f'Question: {number}'
+    question = number
 
     if is_prime(number):
         right_answer: str = 'yes'

@@ -9,10 +9,6 @@ def is_even(number):
 
 def generate_round():
     number = random.randint(1, 100)
-    question = f'Question: {number}'
-
-    if is_even(number):
-        right_answer: str = 'yes'
-    else:
-        right_answer: str = 'no'
+    question = number
+    right_answer: str = 'yes' if is_even(number) else 'no'
     return question, right_answer

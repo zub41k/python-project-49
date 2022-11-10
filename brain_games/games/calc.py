@@ -4,17 +4,23 @@ RULES = 'What is the result of the expression?'
 OPERATORS = ['+', '-', '*']
 
 
-def generate_round():
-
-    first_number = random.randint(1, 10)
-    second_number = random.randint(1, 10)
-    operator = random.choice(OPERATORS)
-    question = f'Question: {first_number} {operator} {second_number}'
+def generate_equation(operator, first_number, second_number):
 
     if operator == '+':
-        right_answer = first_number + second_number
+        equation = first_number + second_number
     if operator == '-':
-        right_answer = first_number - second_number
+        equation = first_number - second_number
     if operator == '*':
-        right_answer = first_number * second_number
+        equation = first_number * second_number
+    return equation
+
+
+def generate_round():
+    operator = random.choice(OPERATORS)
+    first_number = random.randint(1, 10)
+    second_number = random.randint(1, 10)
+
+    right_answer = generate_equation(operator, first_number, second_number)
+    question = f'{first_number} {operator} {second_number}'
+
     return question, str(right_answer)
