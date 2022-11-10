@@ -7,12 +7,11 @@ OPERATORS = ['+', '-', '*']
 def generate_equation(operator, first_number, second_number):
 
     if operator == '+':
-        equation = first_number + second_number
+        return first_number + second_number
     if operator == '-':
-        equation = first_number - second_number
+        return first_number - second_number
     if operator == '*':
-        equation = first_number * second_number
-    return equation
+        return first_number * second_number
 
 
 def generate_round():
